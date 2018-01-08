@@ -4,16 +4,16 @@ class Pal
 {
 public static void main(String args[])
 {
-String a, b = "";
+int a, b = "";
 Scanner in = new Scanner(System.in);
-System.out.println("Enter a string to check if it is a palindrome");
+System.out.println("Enter a integer to check if it is a palindrome");
 a = in.nextLine();
 int length = a.length();
 for ( int i = length - 1; i >= 0; i-- )
 b = b + a.charAt(i);
 if (a.equals(b))
-System.out.println("Entered string is a palindrome.");
+System.out.println("Entered integer is a palindrome.");
 else
-System.out.println("Entered string is not a palindrome.");
+System.out.println("Entered integer is not a palindrome.");
 }
 }	
