@@ -1,5 +1,5 @@
 import java.io.*;
-class Ar
+public class Ar
 {  
 public static void main(String[] args)
 {  
