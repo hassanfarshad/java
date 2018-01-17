@@ -3,7 +3,7 @@ public class amb
 {
 public static void main(string[] args)
 {
-int a=150,b=160;
+int a=150,b=160,c,n=0;
 while(a<b)
 {
 for(int i=1;i<=a;++i)
@@ -14,4 +14,7 @@ b=n%10;
 n=n/10;  
 a=a+(b*b*b);  
 }  
+}
+  system.out.println(a+"");
+}
 }
