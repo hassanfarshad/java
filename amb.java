@@ -1,20 +1,17 @@
 import java.io.*;
 public class amb
 {
-public static void main(string[] args)
+public static void main(String[] args)
 {
-int a=150,b=160,c,n=0;
-while(a<b)
-{
-for(int i=1;i<=a;++i)
-{
-  while(n>0)  
+int a=0,b=0;
+int n=153;
+for(int i=0;i<=160;++i)
+while(n>=0)  
 {  
 b=n%10;  
 n=n/10;  
-a=a+(b*b*b);  
+a=a+(b*b*b); 
+ System.out.println(a);
 }  
-}
-  system.out.println(a+"");
 }
 }
