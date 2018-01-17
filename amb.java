@@ -8,4 +8,10 @@ while(a<b)
 {
 for(int i=1;i<=a;++i)
 {
-  
+  while(n>0)  
+{  
+b=n%10;  
+n=n/10;  
+a=a+(b*b*b);  
+}  
+}
