@@ -1,4 +1,4 @@
-import java.io.;
+import java.io.*;
 public static void main(String args[])
 {  
 int i,fact=1;  
