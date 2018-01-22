@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.io.*;
+import java.util.Scanner;
 public class ex1
 {
 public static void main(String[] args) 
