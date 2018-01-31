@@ -1,5 +1,5 @@
 import java.io.*;
-public class Power 
+public class e11 
 {
 public static void main(String[] args) 
 {
